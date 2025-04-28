@@ -1,7 +1,13 @@
 [package]
 name = "dirio"
 version = "0.1.0"
+authors = ["Noam Teyssier"]
 edition = "2024"
+description = "A simple CLI to track and report disk usage over some subcommand runtime"
+readme = "README.md"
+license = "MIT"
+keywords = ["disk", "usage", "report", "CLI"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
 anyhow = "1.0.98"
